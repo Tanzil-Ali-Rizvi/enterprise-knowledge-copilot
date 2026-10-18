@@ -1,0 +1,2204 @@
+{
+  "bm25": {
+    "metrics": {
+      "cases": 44,
+      "hit@1": 0.971,
+      "hit@5": 1.0,
+      "mrr": 0.985,
+      "answer_accuracy": 0.824,
+      "citation_accuracy": 0.824,
+      "abstention_accuracy": 1.0,
+      "acl_leak_rate": 0.0,
+      "latency_p50_ms": 0.4,
+      "latency_p95_ms": 0.7
+    },
+    "rows": [
+      {
+        "id": "f01",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.625,
+        "answer": "Full-time employees accrue 24 days of earned leave per calendar year, credited at 2 days per month. [1] Up to 15 unused earned leave days can be carried forward into the next year. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f02",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8571,
+        "answer": "Up to 15 unused earned leave days can be carried forward into the next year. [1] Earned leave beyond the carry-forward limit lapses on 31 December. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f03",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Non-birthing parents receive 4 weeks of fully paid paternity leave, which must be taken within 6 months of the child's birth or adoption. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f04",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "A medical certificate is required for sick leave longer than 3 consecutive days. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f05",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Employees are expected in the office 3 days per week, with Tuesday and Thursday as mandatory team anchor days. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f06",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Employees receive a one-time home office allowance of INR 15,000 for a chair, desk or monitor, plus a monthly internet reimbursement of up to INR 1,500. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f07",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.25,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 2,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f08",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Hotel limits per night are INR 9,000 in metro cities (Mumbai, Delhi NCR, Bengaluru, Chennai, Hyderabad, Kolkata, Pune) and INR 6,000 in all other Indian cities. [1] For international travel, the limit is USD 220 per night. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f09",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Economy class is the default for all flights under 6 hours. [1] Business class is permitted only for flights longer than 6 hours and requires VP approval. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f10",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Expense claims must be submitted in the expense tool within 30 days of the trip ending, with itemised receipts for every expense above INR [1] Claims are submitted through the expense tool with the original invoice. [2]",
+        "cited": [
+          "finance/travel-expense-policy.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f11",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "The daily meal allowance is INR 2,000 for domestic travel and USD 75 for international travel. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f12",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f13",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "A lost or stolen laptop or phone must be reported to the IT helpdesk within 1 hour so the device can be remotely wiped. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f14",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Report suspected phishing emails using the \"Report Phishing\" button in the mail client or by forwarding them to security@northwind-pay.example. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f15",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "For a P1 incident, the on-call engineer must acknowledge the page within 5 minutes and an Incident Commander must be assigned within 15 minutes. [1] P2 incidents must be acknowledged within 15 minutes. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f16",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7778,
+        "answer": "Cyber security incidents must be reported to CERT-In within 6 hours of being noticed. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f17",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Every pull request needs at least 2 approvals, and at least one approval must come from a code owner. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f18",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "There is a deployment freeze from 25 December to 1 January and during the Diwali sale week. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f19",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Merchants pay a fee of 0.9% per successful AutoPay debit, with no setup fee. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f20",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Customers can approve mandates of up to INR 15,000 per debit without entering a PIN for each debit. [1] Debits above INR 15,000 require the customer to authenticate each debit with their UPI PIN. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f21",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "If a debit fails, Northwind retries automatically up to 3 times over 3 days. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f22",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "Payment transaction records are retained for 10 years to meet RBI and anti-money-laundering requirements. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f23",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Customer requests to delete personal data under the Digital Personal Data Protection Act must be completed within 30 days, except for data the company is legally required to retain. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f24",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f25",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Each employee may choose 2 floating holidays from the optional list, such as Pongal, Onam, Eid al-Adha or Durga Puja. [1] Floating holidays must be applied for in the HR portal at least 7 days in advance. [1]",
+        "cited": [
+          "hr/holidays-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f26",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8333,
+        "answer": "Guests use the \"NW-Guest\" network with a daily password shown at reception. [1] Company laptops must not be used on public Wi-Fi without the company VPN. [3]",
+        "cited": [
+          "it/office-wifi-guide.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p01",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p02",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p03",
+        "category": "paraphrase",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Page the on-call engineer through PagerDuty using the \"payments-core\" service. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p04",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.1429,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "a01",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Q3 revenue was INR 142 crore, up 31% year over year. [1]",
+        "cited": [
+          "exec/q3-2026-board-summary.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a02",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Software Engineer (L3) base salary band is INR 18 lakh to 28 lakh per year. [1] Senior Software Engineer (L4) band is INR 30 lakh to 45 lakh per year. [1]",
+        "cited": [
+          "hr/compensation-bands-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a03",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Purchases between INR 1 lakh and INR 25 lakh need approval from the budget owner and the Finance Controller. [1] Purchases above INR 25 lakh need CFO approval and at least 3 competitive quotes. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a04",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Standard vendor payment terms are net 45 days from invoice receipt. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "d01",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d02",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d03",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d04",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d05",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "i01",
+        "category": "injection",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false
+      },
+      {
+        "id": "o01",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o02",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o03",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o04",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      }
+    ],
+    "settings": {
+      "embedder": "hashing-1024",
+      "reranker": "none",
+      "llm": "offline-extractive",
+      "mode": "bm25"
+    }
+  },
+  "vector": {
+    "metrics": {
+      "cases": 44,
+      "hit@1": 0.971,
+      "hit@5": 1.0,
+      "mrr": 0.985,
+      "answer_accuracy": 0.824,
+      "citation_accuracy": 0.824,
+      "abstention_accuracy": 1.0,
+      "acl_leak_rate": 0.0,
+      "latency_p50_ms": 2.5,
+      "latency_p95_ms": 3.2
+    },
+    "rows": [
+      {
+        "id": "f01",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.625,
+        "answer": "Full-time employees accrue 24 days of earned leave per calendar year, credited at 2 days per month. [1] Up to 15 unused earned leave days can be carried forward into the next year. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f02",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8571,
+        "answer": "Up to 15 unused earned leave days can be carried forward into the next year. [1] Earned leave beyond the carry-forward limit lapses on 31 December. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f03",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Non-birthing parents receive 4 weeks of fully paid paternity leave, which must be taken within 6 months of the child's birth or adoption. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f04",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "A medical certificate is required for sick leave longer than 3 consecutive days. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f05",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Employees are expected in the office 3 days per week, with Tuesday and Thursday as mandatory team anchor days. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f06",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Employees receive a one-time home office allowance of INR 15,000 for a chair, desk or monitor, plus a monthly internet reimbursement of up to INR 1,500. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f07",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.25,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f08",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Hotel limits per night are INR 9,000 in metro cities (Mumbai, Delhi NCR, Bengaluru, Chennai, Hyderabad, Kolkata, Pune) and INR 6,000 in all other Indian cities. [1] For international travel, the limit is USD 220 per night. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f09",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Economy class is the default for all flights under 6 hours. [1] Business class is permitted only for flights longer than 6 hours and requires VP approval. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f10",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Expense claims must be submitted in the expense tool within 30 days of the trip ending, with itemised receipts for every expense above INR [1] Claims are submitted through the expense tool with the original invoice. [3]",
+        "cited": [
+          "finance/travel-expense-policy.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f11",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "The daily meal allowance is INR 2,000 for domestic travel and USD 75 for international travel. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f12",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f13",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "A lost or stolen laptop or phone must be reported to the IT helpdesk within 1 hour so the device can be remotely wiped. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f14",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Report suspected phishing emails using the \"Report Phishing\" button in the mail client or by forwarding them to security@northwind-pay.example. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f15",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "For a P1 incident, the on-call engineer must acknowledge the page within 5 minutes and an Incident Commander must be assigned within 15 minutes. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f16",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7778,
+        "answer": "Cyber security incidents must be reported to CERT-In within 6 hours of being noticed. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f17",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Every pull request needs at least 2 approvals, and at least one approval must come from a code owner. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f18",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "There is a deployment freeze from 25 December to 1 January and during the Diwali sale week. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f19",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Merchants pay a fee of 0.9% per successful AutoPay debit, with no setup fee. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f20",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Customers can approve mandates of up to INR 15,000 per debit without entering a PIN for each debit. [1] Debits above INR 15,000 require the customer to authenticate each debit with their UPI PIN. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f21",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "If a debit fails, Northwind retries automatically up to 3 times over 3 days. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f22",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "Payment transaction records are retained for 10 years to meet RBI and anti-money-laundering requirements. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f23",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Customer requests to delete personal data under the Digital Personal Data Protection Act must be completed within 30 days, except for data the company is legally required to retain. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f24",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f25",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Each employee may choose 2 floating holidays from the optional list, such as Pongal, Onam, Eid al-Adha or Durga Puja. [1] Floating holidays must be applied for in the HR portal at least 7 days in advance. [1]",
+        "cited": [
+          "hr/holidays-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f26",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8333,
+        "answer": "Guests use the \"NW-Guest\" network with a daily password shown at reception. [1] Company laptops must not be used on public Wi-Fi without the company VPN. [4]",
+        "cited": [
+          "it/office-wifi-guide.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p01",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p02",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p03",
+        "category": "paraphrase",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Page the on-call engineer through PagerDuty using the \"payments-core\" service. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p04",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 2,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "a01",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Q3 revenue was INR 142 crore, up 31% year over year. [1]",
+        "cited": [
+          "exec/q3-2026-board-summary.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a02",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Software Engineer (L3) base salary band is INR 18 lakh to 28 lakh per year. [1] Senior Software Engineer (L4) band is INR 30 lakh to 45 lakh per year. [1]",
+        "cited": [
+          "hr/compensation-bands-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a03",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Purchases between INR 1 lakh and INR 25 lakh need approval from the budget owner and the Finance Controller. [1] Purchases above INR 25 lakh need CFO approval and at least 3 competitive quotes. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a04",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Standard vendor payment terms are net 45 days from invoice receipt. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "d01",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d02",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d03",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d04",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d05",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "i01",
+        "category": "injection",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false
+      },
+      {
+        "id": "o01",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o02",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o03",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o04",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      }
+    ],
+    "settings": {
+      "embedder": "hashing-1024",
+      "reranker": "none",
+      "llm": "offline-extractive",
+      "mode": "vector"
+    }
+  },
+  "hybrid": {
+    "metrics": {
+      "cases": 44,
+      "hit@1": 1.0,
+      "hit@5": 1.0,
+      "mrr": 1.0,
+      "answer_accuracy": 0.824,
+      "citation_accuracy": 0.824,
+      "abstention_accuracy": 1.0,
+      "acl_leak_rate": 0.0,
+      "latency_p50_ms": 3.1,
+      "latency_p95_ms": 4.6
+    },
+    "rows": [
+      {
+        "id": "f01",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.625,
+        "answer": "Full-time employees accrue 24 days of earned leave per calendar year, credited at 2 days per month. [1] Up to 15 unused earned leave days can be carried forward into the next year. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f02",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8571,
+        "answer": "Up to 15 unused earned leave days can be carried forward into the next year. [1] Earned leave beyond the carry-forward limit lapses on 31 December. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f03",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Non-birthing parents receive 4 weeks of fully paid paternity leave, which must be taken within 6 months of the child's birth or adoption. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f04",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "A medical certificate is required for sick leave longer than 3 consecutive days. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f05",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Employees are expected in the office 3 days per week, with Tuesday and Thursday as mandatory team anchor days. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f06",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Employees receive a one-time home office allowance of INR 15,000 for a chair, desk or monitor, plus a monthly internet reimbursement of up to INR 1,500. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f07",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.25,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f08",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Hotel limits per night are INR 9,000 in metro cities (Mumbai, Delhi NCR, Bengaluru, Chennai, Hyderabad, Kolkata, Pune) and INR 6,000 in all other Indian cities. [1] For international travel, the limit is USD 220 per night. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f09",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Economy class is the default for all flights under 6 hours. [1] Business class is permitted only for flights longer than 6 hours and requires VP approval. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f10",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Expense claims must be submitted in the expense tool within 30 days of the trip ending, with itemised receipts for every expense above INR [1] Claims are submitted through the expense tool with the original invoice. [3]",
+        "cited": [
+          "finance/travel-expense-policy.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f11",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "The daily meal allowance is INR 2,000 for domestic travel and USD 75 for international travel. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f12",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f13",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "A lost or stolen laptop or phone must be reported to the IT helpdesk within 1 hour so the device can be remotely wiped. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f14",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "Report suspected phishing emails using the \"Report Phishing\" button in the mail client or by forwarding them to security@northwind-pay.example. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f15",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "For a P1 incident, the on-call engineer must acknowledge the page within 5 minutes and an Incident Commander must be assigned within 15 minutes. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f16",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7778,
+        "answer": "Cyber security incidents must be reported to CERT-In within 6 hours of being noticed. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f17",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6,
+        "answer": "Every pull request needs at least 2 approvals, and at least one approval must come from a code owner. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f18",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "There is a deployment freeze from 25 December to 1 January and during the Diwali sale week. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f19",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Merchants pay a fee of 0.9% per successful AutoPay debit, with no setup fee. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f20",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.75,
+        "answer": "Customers can approve mandates of up to INR 15,000 per debit without entering a PIN for each debit. [1] Debits above INR 15,000 require the customer to authenticate each debit with their UPI PIN. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f21",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6667,
+        "answer": "If a debit fails, Northwind retries automatically up to 3 times over 3 days. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f22",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8,
+        "answer": "Payment transaction records are retained for 10 years to meet RBI and anti-money-laundering requirements. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f23",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Customer requests to delete personal data under the Digital Personal Data Protection Act must be completed within 30 days, except for data the company is legally required to retain. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f24",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f25",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Each employee may choose 2 floating holidays from the optional list, such as Pongal, Onam, Eid al-Adha or Durga Puja. [1] Floating holidays must be applied for in the HR portal at least 7 days in advance. [1]",
+        "cited": [
+          "hr/holidays-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f26",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8333,
+        "answer": "Guests use the \"NW-Guest\" network with a daily password shown at reception. [1] Company laptops must not be used on public Wi-Fi without the company VPN. [4]",
+        "cited": [
+          "it/office-wifi-guide.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p01",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p02",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p03",
+        "category": "paraphrase",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Page the on-call engineer through PagerDuty using the \"payments-core\" service. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p04",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.1429,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "a01",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Q3 revenue was INR 142 crore, up 31% year over year. [1]",
+        "cited": [
+          "exec/q3-2026-board-summary.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a02",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Software Engineer (L3) base salary band is INR 18 lakh to 28 lakh per year. [1] Senior Software Engineer (L4) band is INR 30 lakh to 45 lakh per year. [1]",
+        "cited": [
+          "hr/compensation-bands-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a03",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 0.5,
+        "answer": "Purchases between INR 1 lakh and INR 25 lakh need approval from the budget owner and the Finance Controller. [1] Purchases above INR 25 lakh need CFO approval and at least 3 competitive quotes. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a04",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Standard vendor payment terms are net 45 days from invoice receipt. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "d01",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d02",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d03",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.1667,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d04",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d05",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "i01",
+        "category": "injection",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false
+      },
+      {
+        "id": "o01",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o02",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o03",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.3333,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o04",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.0,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      }
+    ],
+    "settings": {
+      "embedder": "hashing-1024",
+      "reranker": "none",
+      "llm": "offline-extractive",
+      "mode": "hybrid"
+    }
+  },
+  "hybrid+rerank": {
+    "metrics": {
+      "cases": 44,
+      "hit@1": 0.971,
+      "hit@5": 1.0,
+      "mrr": 0.985,
+      "answer_accuracy": 0.882,
+      "citation_accuracy": 0.882,
+      "abstention_accuracy": 1.0,
+      "acl_leak_rate": 0.0,
+      "latency_p50_ms": 5.6,
+      "latency_p95_ms": 6.1
+    },
+    "rows": [
+      {
+        "id": "f01",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5517,
+        "answer": "Full-time employees accrue 24 days of earned leave per calendar year, credited at 2 days per month. [1] Up to 15 unused earned leave days can be carried forward into the next year. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f02",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7998,
+        "answer": "Up to 15 unused earned leave days can be carried forward into the next year. [1] Earned leave beyond the carry-forward limit lapses on 31 December. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f03",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6745,
+        "answer": "Non-birthing parents receive 4 weeks of fully paid paternity leave, which must be taken within 6 months of the child's birth or adoption. [1] Passwords must be at least 14 characters long and must be stored only in the company password manager. [2]",
+        "cited": [
+          "hr/leave-policy.md",
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f04",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7791,
+        "answer": "A medical certificate is required for sick leave longer than 3 consecutive days. [1]",
+        "cited": [
+          "hr/leave-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f05",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5303,
+        "answer": "Employees are expected in the office 3 days per week, with Tuesday and Thursday as mandatory team anchor days. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f06",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Employees receive a one-time home office allowance of INR 15,000 for a chair, desk or monitor, plus a monthly internet reimbursement of up to INR 1,500. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f07",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.325,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 2,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f08",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8875,
+        "answer": "Hotel limits per night are INR 9,000 in metro cities (Mumbai, Delhi NCR, Bengaluru, Chennai, Hyderabad, Kolkata, Pune) and INR 6,000 in all other Indian cities. [1] For international travel, the limit is USD 220 per night. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f09",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7215,
+        "answer": "Economy class is the default for all flights under 6 hours. [1] Business class is permitted only for flights longer than 6 hours and requires VP approval. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f10",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6079,
+        "answer": "Expense claims must be submitted in the expense tool within 30 days of the trip ending, with itemised receipts for every expense above INR [1] Claims are submitted through the expense tool with the original invoice. [2]",
+        "cited": [
+          "finance/travel-expense-policy.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f11",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.78,
+        "answer": "The daily meal allowance is INR 2,000 for domestic travel and USD 75 for international travel. [1]",
+        "cited": [
+          "finance/travel-expense-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f12",
+        "category": "factual",
+        "abstained": true,
+        "confidence": 0.3611,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "f13",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.85,
+        "answer": "A lost or stolen laptop or phone must be reported to the IT helpdesk within 1 hour so the device can be remotely wiped. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f14",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7297,
+        "answer": "Report suspected phishing emails using the \"Report Phishing\" button in the mail client or by forwarding them to security@northwind-pay.example. [1]",
+        "cited": [
+          "it/information-security-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f15",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6522,
+        "answer": "For a P1 incident, the on-call engineer must acknowledge the page within 5 minutes and an Incident Commander must be assigned within 15 minutes. [1] P2 incidents must be acknowledged within 15 minutes. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f16",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7217,
+        "answer": "Cyber security incidents must be reported to CERT-In within 6 hours of being noticed. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f17",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.5837,
+        "answer": "Every pull request needs at least 2 approvals, and at least one approval must come from a code owner. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f18",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "There is a deployment freeze from 25 December to 1 January and during the Diwali sale week. [1]",
+        "cited": [
+          "engineering/engineering-onboarding.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f19",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.9,
+        "answer": "Merchants pay a fee of 0.9% per successful AutoPay debit, with no setup fee. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f20",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6425,
+        "answer": "Customers can approve mandates of up to INR 15,000 per debit without entering a PIN for each debit. [1] Debits above INR 15,000 require the customer to authenticate each debit with their UPI PIN. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f21",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6543,
+        "answer": "If a debit fails, Northwind retries automatically up to 3 times over 3 days. [1]",
+        "cited": [
+          "product/upi-autopay-faq.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f22",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.8224,
+        "answer": "Payment transaction records are retained for 10 years to meet RBI and anti-money-laundering requirements. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f23",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.6192,
+        "answer": "Customer requests to delete personal data under the Digital Personal Data Protection Act must be completed within 30 days, except for data the company is legally required to retain. [1]",
+        "cited": [
+          "legal/data-retention-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f24",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.64,
+        "answer": "Republic Day (26 January), Holi (4 March), Eid al-Fitr (21 March), Good Friday (3 April), Labour Day (1 May), Independence Day (15 August), Ganesh Chaturthi (14 September), Gandhi Jayanti (2 October), Dussehra (20 October), Diwali (8 November), Guru Nanak Jayanti (24 November) and Christmas (25 December). [1] Northwind Pay offices observe 12 fixed holidays and 2 floating holidays in 2026. [2]",
+        "cited": [
+          "hr/holidays-2026.md",
+          "hr/holidays-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f25",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.4996,
+        "answer": "Each employee may choose 2 floating holidays from the optional list, such as Pongal, Onam, Eid al-Adha or Durga Puja. [1] Floating holidays must be applied for in the HR portal at least 7 days in advance. [1]",
+        "cited": [
+          "hr/holidays-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "f26",
+        "category": "factual",
+        "abstained": false,
+        "confidence": 0.7529,
+        "answer": "Guests use the \"NW-Guest\" network with a daily password shown at reception. [1] Company laptops must not be used on public Wi-Fi without the company VPN. [4]",
+        "cited": [
+          "it/office-wifi-guide.md",
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p01",
+        "category": "paraphrase",
+        "abstained": false,
+        "confidence": 0.4096,
+        "answer": "Employees receive a one-time home office allowance of INR 15,000 for a chair, desk or monitor, plus a monthly internet reimbursement of up to INR 1,500. [1]",
+        "cited": [
+          "hr/remote-work-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p02",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.3226,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "p03",
+        "category": "paraphrase",
+        "abstained": false,
+        "confidence": 0.4525,
+        "answer": "Page the on-call engineer through PagerDuty using the \"payments-core\" service. [1]",
+        "cited": [
+          "engineering/incident-response-runbook.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "p04",
+        "category": "paraphrase",
+        "abstained": true,
+        "confidence": 0.3815,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "rank": 1,
+        "answer_ok": false,
+        "citation_ok": false
+      },
+      {
+        "id": "a01",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Q3 revenue was INR 142 crore, up 31% year over year. [1]",
+        "cited": [
+          "exec/q3-2026-board-summary.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a02",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 0.97,
+        "answer": "Software Engineer (L3) base salary band is INR 18 lakh to 28 lakh per year. [1] Senior Software Engineer (L4) band is INR 30 lakh to 45 lakh per year. [1]",
+        "cited": [
+          "hr/compensation-bands-2026.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a03",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 0.7161,
+        "answer": "Purchases between INR 1 lakh and INR 25 lakh need approval from the budget owner and the Finance Controller. [1] Purchases above INR 25 lakh need CFO approval and at least 3 competitive quotes. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "a04",
+        "category": "acl_allowed",
+        "abstained": false,
+        "confidence": 1.0,
+        "answer": "Standard vendor payment terms are net 45 days from invoice receipt. [1]",
+        "cited": [
+          "finance/procurement-policy.md"
+        ],
+        "rank": 1,
+        "answer_ok": true,
+        "citation_ok": true
+      },
+      {
+        "id": "d01",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d02",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.3063,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d03",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.3689,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d04",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.2567,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "d05",
+        "category": "acl_denied",
+        "abstained": true,
+        "confidence": 0.3183,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false,
+        "abstain_ok": true
+      },
+      {
+        "id": "i01",
+        "category": "injection",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "leak": false
+      },
+      {
+        "id": "o01",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o02",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o03",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.3746,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      },
+      {
+        "id": "o04",
+        "category": "out_of_scope",
+        "abstained": true,
+        "confidence": 0.2,
+        "answer": "I don't know based on the documents you have access to.",
+        "cited": [],
+        "abstain_ok": true
+      }
+    ],
+    "settings": {
+      "embedder": "hashing-1024",
+      "reranker": "lexical",
+      "llm": "offline-extractive",
+      "mode": "hybrid"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "users": [
+    {"user_id": "priya", "name": "Priya Sharma (Engineer)", "roles": ["employee", "engineering"]},
+    {"user_id": "arjun", "name": "Arjun Mehta (HR Partner)", "roles": ["employee", "hr"]},
+    {"user_id": "kavya", "name": "Kavya Iyer (Finance Lead)", "roles": ["employee", "finance"]},
+    {"user_id": "rohan", "name": "Rohan Verma (CEO)", "roles": ["employee", "exec", "finance", "hr"]},
+    {"user_id": "admin", "name": "Platform Admin", "roles": ["employee", "admin"]}
+  ]
+}

@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "enterprise-knowledge-copilot"
+version = "0.1.0"
+description = "Production-grade RAG copilot: hybrid search, reranking, cited answers, role-based access control and an evaluation harness."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Tanzil Ali Rizvi" }]
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "pydantic>=2.6",
+  "pydantic-settings>=2.2",
+  "qdrant-client>=1.10",
+  "rank-bm25>=0.2.2",
+  "pypdf>=4.0",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+# Neural embeddings + cross-encoder reranking (downloads small ONNX models on first use)
+neural = ["fastembed>=0.4"]
+ui = ["streamlit>=1.35"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+kcopilot = "kcopilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008"]  # FastAPI Depends() in defaults is the framework idiom

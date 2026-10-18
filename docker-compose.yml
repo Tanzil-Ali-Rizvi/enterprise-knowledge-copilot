@@ -1,0 +1,31 @@
+# docker compose up --build            -> API on :8000, UI on :8501 (offline extractive answers)
+# docker compose --profile llm up      -> also starts Ollama for fully local, private LLM answers
+#   then: docker compose exec ollama ollama pull llama3.2:3b
+services:
+  api:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    ports: ["8000:8000"]
+    volumes: ["index:/app/.index"]
+
+  ui:
+    build: .
+    command: ["streamlit", "run", "ui/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    env_file:
+      - path: .env
+        required: false
+    ports: ["8501:8501"]
+    volumes: ["index:/app/.index"]
+    depends_on: [api]
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["llm"]
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+
+volumes:
+  index:
+  ollama:
