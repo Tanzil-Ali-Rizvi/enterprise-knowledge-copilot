@@ -3,10 +3,15 @@
 [![CI](https://github.com/Tanzil-Ali-Rizvi/enterprise-knowledge-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Tanzil-Ali-Rizvi/enterprise-knowledge-copilot/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Live demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tanzil-knowledge-copilot.streamlit.app)
 
 **A production-style RAG assistant that answers employee questions from company documents — with citations, role-based access control, abstention when it doesn't know, and an evaluation suite that gates every commit.**
 
 > Employees at a typical company spend hours a week hunting through policies, runbooks and wikis. This copilot answers in milliseconds, shows exactly which document each sentence came from, and **never reveals a document the asking user isn't cleared to read** — even if a document contains a prompt-injection attack.
+
+### ▶️ [Try the live demo](https://tanzil-knowledge-copilot.streamlit.app)
+
+Ask *"What were Q3 revenue and EBITDA?"* as **Priya (Engineer)**: the copilot refuses, because she can't read board documents. Switch the sidebar to **Rohan (CEO)** and ask again: it answers with a citation. *(Free hosting sleeps when idle; the first load may take a minute.)*
 
 ---
 
@@ -174,7 +179,6 @@ tests/            # unit, security (ACL + injection), API, eval-gate tests
 - [ ] Incremental indexing from Google Drive / SharePoint / Confluence
 - [ ] LLM-as-judge faithfulness scoring and an LLM-backed eval run in CI
 - [ ] Query rewriting for multi-turn follow-ups
-- [ ] Hugging Face Spaces live demo
 
 ## License
 
