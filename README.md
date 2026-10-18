@@ -62,20 +62,32 @@ flowchart LR
 
 Golden set: **44 cases** across factual lookup, paraphrase, access-control allowed / denied, prompt injection and out-of-scope questions ([`evals/golden.jsonl`](evals/golden.jsonl)).
 
-Fully offline configuration (hashing embedder, lexical reranker, extractive answerer — no network, no API key):
+**Neural configuration** (bge-small-en-v1.5 embeddings + ms-marco MiniLM cross-encoder, run in CI on every push):
+
+| Config | hit@1 | hit@5 | MRR | Answer acc. | Citation acc. | Abstention acc. | **ACL leak rate** | p50 latency |
+|---|---|---|---|---|---|---|---|---|
+| BM25 only | 0.97 | 1.00 | 0.99 | 0.82 | 0.82 | 1.00 | **0.0** | 0.5 ms |
+| Vector only | 0.94 | 0.97 | 0.96 | 0.79 | 0.79 | 1.00 | **0.0** | 9 ms |
+| Hybrid (RRF) | 1.00 | 1.00 | 1.00 | 0.85 | 0.85 | 1.00 | **0.0** | 9 ms |
+| **Hybrid + cross-encoder** | **1.00** | **1.00** | **1.00** | **0.88** | **0.88** | 1.00 | **0.0** | 338 ms (CPU) |
+
+**Fully offline configuration** (hashing embedder, lexical reranker — no network, no model download, no API key):
 
 | Config | hit@1 | hit@5 | MRR | Answer acc. | Citation acc. | Abstention acc. | **ACL leak rate** | p50 latency |
 |---|---|---|---|---|---|---|---|---|
 | BM25 only | 0.97 | 1.00 | 0.99 | 0.82 | 0.82 | 1.00 | **0.0** | 0.4 ms |
 | Vector only | 0.97 | 1.00 | 0.99 | 0.82 | 0.82 | 1.00 | **0.0** | 2.5 ms |
 | Hybrid (RRF) | 1.00 | 1.00 | 1.00 | 0.82 | 0.82 | 1.00 | **0.0** | 3.1 ms |
-| **Hybrid + rerank** | 0.97 | 1.00 | 0.99 | **0.88** | **0.88** | 1.00 | **0.0** | 5.6 ms |
+| Hybrid + lexical rerank | 0.97 | 1.00 | 0.99 | 0.88 | 0.88 | 1.00 | **0.0** | 5.6 ms |
+
+Both tables use the offline extractive answerer so results are deterministic and free to reproduce.
 
 **What the numbers say**
 
-- Retrieval is strong across the board (hit@5 = 1.0); the reranker is what lifts *answer* accuracy by sharpening the confidence signal.
-- **Zero access-control leaks** across all denied-access and injection cases, in every configuration.
-- The remaining misses are paraphrases with no shared vocabulary (e.g. *"Is a beer with dinner reimbursable?"* vs. *"Alcohol is never reimbursable"*). The offline mode correctly *abstains* rather than guessing; the neural configuration (bge-small + cross-encoder) is evaluated in CI to close this gap — see the `eval-neural` job summary.
+- **Hybrid beats either retriever alone.** Vector-only misses exact terms; BM25-only misranks paraphrases. Fusion plus the cross-encoder gives perfect ranking on this set (hit@1 = MRR = 1.0).
+- **Zero access-control leaks** across every denied-access and prompt-injection case, in every configuration.
+- **Perfect abstention:** every out-of-scope and forbidden question gets "I don't know" instead of a guess.
+- **The remaining misses are generation, not retrieval.** The right chunk is ranked first, but questions like *"Is a beer with dinner reimbursable?"* share no words with *"Alcohol is never reimbursable"*, so the word-overlap answerer abstains. Plugging in an LLM (`KC_LLM_PROVIDER=openai`) is the next step for these; the cross-encoder's ~340 ms CPU cost is the latency trade-off for perfect ranking (a GPU or a smaller candidate set brings it down).
 
 Full report: [`evals/results/report.md`](evals/results/report.md). Reproduce with `make eval`.
 
@@ -160,7 +172,7 @@ tests/            # unit, security (ACL + injection), API, eval-gate tests
 
 - [ ] Langfuse tracing and per-user cost dashboard
 - [ ] Incremental indexing from Google Drive / SharePoint / Confluence
-- [ ] LLM-as-judge faithfulness scoring in the eval suite
+- [ ] LLM-as-judge faithfulness scoring and an LLM-backed eval run in CI
 - [ ] Query rewriting for multi-turn follow-ups
 - [ ] Hugging Face Spaces live demo
 
