@@ -1,0 +1,12 @@
+# Used by Streamlit Community Cloud (ui/app.py adds src/ to the path itself).
+# For local development prefer: pip install -e ".[neural,ui,dev]"
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+qdrant-client>=1.10
+rank-bm25>=0.2.2
+pypdf>=4.0
+httpx>=0.27
+fastembed>=0.4
+streamlit>=1.35
